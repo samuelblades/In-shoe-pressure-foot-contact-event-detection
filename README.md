@@ -2,7 +2,7 @@
 A set of 7 pressure based foot contact event detection algorithms that can be used to detect foot contact events in running.
 
 JAN 2023
-Code written by Samuel Blades and Hunter Marriott
+Code written by Hunter Marriott with contributions from Samuel Blades
 
 The algorithms are written to detect foot contact events using in-shoe plantar pressure data. The algorithms are designed to run post-hoc on the sum of the plantar pressure data, normalized between 0 - 100 of signal max. 
 
