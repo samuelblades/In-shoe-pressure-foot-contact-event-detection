@@ -112,6 +112,13 @@ def slope_extension_fce(input_signal, fs=200, wait=20):
     return fc, fo
 
 # FCE5 method_5 - Filtered Unity
+'''
+Unity component is based on:
+
+Zhou, P., & Zhang, X. (2013). 
+A novel technique for muscle onset detection using surface EMG signals without removal of ECG artifacts. 
+Physiological measurement, 35(1), 45.
+'''
 
 def filtered_signal_unity_fce(input_signal, filt_frequency=2, fs=200, wait=20):
     
